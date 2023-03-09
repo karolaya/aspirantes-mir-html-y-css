@@ -1,0 +1,38 @@
+.formulario {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #bd09b7, #6b4cf5);
+    box-shadow: 5px 5px 3px 1px gray;
+    
+}
+
+h1, label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#email, #password, select {
+    padding: 7px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.boton {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.alinear-boton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-with: 500px) {
+    .formulario {
+        width: 100%;
+    }
+}

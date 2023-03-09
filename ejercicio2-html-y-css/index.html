@@ -8,6 +8,53 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="formulario">
+        
+        <h1>Login</h1>
+
+        <form> <!--Con esta línea podemos crear un formulario para agregar dentro todos los elementos que necesitemos-->
+                 
+            <!--Creamos campo para recibir correo-->
+            <label for="email">
+                Email
+                <br>
+                <input type="email" id="email" name="email" >
+            </label>
+
+            <br>
+            <br>
+            <!--Creamos campo para recibir contraseña-->
+            <label for="password">
+                Password
+                <br>
+                <input type="password" id="password" name="password" >
+            </label>
+
+            <br>
+            <br>
+            <!--Creamos campo para recibir genero-->
+            <label for="genero">
+                Genero
+                <br>
+                <select id="genero">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </label>
+
+            <br>
+            <br>
+            <!--Creamos campo para checkbox de aceptación terminos-->
+            <input type="checkbox" id="terminos" name="terminos">
+            <label for="terminos">Acepto los terminos</label>
+            
+            <br>
+            <br>
+            <!--Creamos campo para checkbox de aceptación terminos-->
+            <div class="alinear-boton">
+                <input type="submit" class="boton" value="Ingresar">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
