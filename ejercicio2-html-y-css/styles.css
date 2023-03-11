@@ -17,6 +17,7 @@ h1, label {
     padding: 7px;
     width: 100%;
     margin-right: 30px;
+    box-sizing: border-box;
 }
 
 .boton {
